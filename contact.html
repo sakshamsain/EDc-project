@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="mode-toggle">
-        <i id="mode-icon" class="fas fa-sun" onclick="toggleMode()"></i>
+        <i id="mode-icon" class="fas fa-moon" onclick="toggleMode()"></i>
     </div>
     <div class="contact-container">
         <div class="contact-form">
@@ -28,6 +28,28 @@
             </form>
         </div>
     </div>
+    <script>
+        function toggleMode() {
+            const body = document.body;
+            const icon = document.getElementById('mode-icon');
+        
+            if (body.classList.contains('light-mode')) {
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            } 
+            else {
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            }
+        }
+        
+       
+        document.body.classList.add('light-mode');
+    </script>
     <script type="module" src="contact.js"></script>
 </body>
 </html>
