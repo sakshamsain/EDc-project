@@ -26,3 +26,22 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebas
                 });
                 alert("Message Sent Successfully!");
             });
+function toggleMode() {
+                const body = document.body;
+                const icon = document.getElementById('mode-icon');
+            
+                if (body.classList.contains('light-mode')) {
+                    body.classList.remove('light-mode');
+                    body.classList.add('dark-mode');
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
+                } else {
+                    body.classList.remove('dark-mode');
+                    body.classList.add('light-mode');
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
+                }
+            }
+            
+            // Set the initial mode to light mode
+            document.body.classList.add('light-mode');
