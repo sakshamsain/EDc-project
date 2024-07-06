@@ -7,7 +7,7 @@ I am work on the portfolio of a webdesigner, videographer, photographer, web des
    CSS: import font using website-> "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         Global style : margin, padding, box designing , text decoration, scroll behavior <br />
         CSS variable : "root for light mode while dark-mode of dark theme" set color, shadow etc.
-                        To prevent horizontal scrolling x-overflow: hidden.
+                        To prevent horizontal scrolling x-overflow: hidden. <br/>
    JS: querySelector selects the HTML with id. onclick ensures the fuction intialization on click the             button. classList ensures the function calling wether it it dark or light mode.
 <br/>
 ## hero section
