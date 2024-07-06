@@ -43,7 +43,7 @@ live project: https://sakshamsain.github.io/EDc-project/
     HTML : It includes copyright information and a scroll-to-top button for user convenience.<a> element                is a link (href="#home") that, when clicked, would navigate the user to the element with the               ID home. <br/>
     CSS : The styles ensure the footer is visually appealing and responsive (flex-wrap: wrap; allows items           to wrap to a new line on smaller screens).<br/>
     <br/>
-    ## JavaScript 
+   ## JavaScript 
    
        1. querySelector('header') function in Making the navbar sticky on scroll.
     <br/>
