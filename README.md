@@ -44,7 +44,7 @@ live project: https://sakshamsain.github.io/EDc-project/
     CSS : The styles ensure the footer is visually appealing and responsive (flex-wrap: wrap; allows items           to wrap to a new line on smaller screens).<br/>
     <br/>
     ## JavaScript explain <br/>
-    ##
+    ## js: <br/>
        querySelector('header') function in Making the navbar sticky on scroll.<br/>
        Using classList target the specific class to handling menu icon and navbar state changes on                scroll.<br/>
        By using swiper space between slides of testimonial also make it autoplay in interval of 5sec. <br/>
