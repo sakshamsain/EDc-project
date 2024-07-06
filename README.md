@@ -41,7 +41,13 @@ live project: https://sakshamsain.github.io/EDc-project/
 
    ## footer <br/>
     HTML : It includes copyright information and a scroll-to-top button for user convenience.<a> element                is a link (href="#home") that, when clicked, would navigate the user to the element with the               ID home. <br/>
-    CSS : The styles ensure the footer is visually appealing and responsive (flex-wrap: wrap; allows items           to wrap to a new line on smaller screens).
+    CSS : The styles ensure the footer is visually appealing and responsive (flex-wrap: wrap; allows items           to wrap to a new line on smaller screens).<br/>
+    <br/>
+    ## JavaScript explain
+       querySelector('header') function in Making the navbar sticky on scroll.<br/>
+       Using classList target the specific class to handling menu icon and navbar state changes on                scroll.<br/>
+       By using swiper space between slides of testimonial also make it autoplay in interval of 5sec. <br/>
+       Using ScrollReveal for animating elements based on their position relative to the viewport.
  
    
  
