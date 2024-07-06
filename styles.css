@@ -122,7 +122,13 @@ section{
 
 
 
-/* home section */
+
+
+
+
+
+
+/* General styles */
 .home {
     display: flex;
     align-items: center;
@@ -131,10 +137,10 @@ section{
 }
 
 .home .home-content {
-    max-width: 44rem;
+    max-width: 40rem;
 }
 
-/* Animation */
+/* Animation keyframes */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -146,7 +152,7 @@ section{
     }
 }
 
-
+/* Animation application */
 .home-content h3,
 .home-content h1,
 .home-content p,
@@ -156,7 +162,7 @@ section{
     animation: fadeInUp 1s ease-in-out forwards;
 }
 
-
+/* Delays to stagger animations */
 .home-content h3 {
     animation-delay: 0.2s;
 }
@@ -200,6 +206,7 @@ section{
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: .3rem;
+    color: #1649c0;
 }
 
 .home-content p {
@@ -270,7 +277,7 @@ section{
     align-items: center;
     animation: professionRotate 12s ease-out infinite;
 }
-/* Animation */
+
 @keyframes professionRotate {
     0%, 16.67% {
         transform: rotate(0deg);
@@ -356,9 +363,29 @@ section{
     padding-right: 1rem;
     pointer-events: none;
 }
+
 span {
     color: var(--main-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about{
     display: flex;
     justify-content: center;
@@ -391,6 +418,7 @@ span {
     margin: 2rem 0 3rem;
     text-align: justify;
 }
+
 .services h2{
     margin-bottom: 5rem;
 }
@@ -447,6 +475,7 @@ span {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
 .portfolio{
     padding: 10rem 5rem;
 }
@@ -537,6 +566,57 @@ span {
 .portfolio-container .heading{
     padding-bottom: 1rem;
 }
+.contact{
+    padding: 10rem 5rem;
+}
+
+.contact h2{
+    margin-bottom: 2rem;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+    border-top: .2rem solid var(--main-color);
+    border-bottom: .2rem solid var(--main-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+    width: 100%;
+    height: 20rem;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
 .testimonial-container .testimonial-wrapper{
     position: relative;
     max-width: 90rem;
@@ -603,6 +683,8 @@ span {
 .testimonial-box .swiper-pagination-bullet-active{
     background: var(--main-color)
 }
+
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -637,3 +719,40 @@ span {
     font-size: 2.4rem;
     color: #333;
 }
+@media (max-width: 1200px){
+    html {
+        font-size: 55%;
+    }
+
+    .home .profession-container{
+        height: 85.8rem;
+    }
+
+    .home .profession-container .profession-box{
+        right: -12rem;
+        height: 85.8rem;
+    }
+
+    .home .profession-container .overlay{
+        right: -9rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 5rem 3% 2rem;
+    }
+
+    .home .profession-container .profession-box{
+        right: -22rem;
+    }
+
+    .home .profession-container .overlay{
+        right: -15rem;
+    }
+}
+
