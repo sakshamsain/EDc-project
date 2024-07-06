@@ -24,7 +24,10 @@ I am work on the portfolio of a webdesigner, videographer, photographer, web des
    CSS :  The Flexbox layout ensures that the image and content are aligned properly, while the font sizes           and text alignment settings ensure readability.
    <br/>
 ## Project section
- 1.
+1. Services
+ HTML : It cantain service boxes in which service is listed in different boxes along with decription of            the services. Link button navigates to the specific service page.
+ CSS : 
+ 
    
  
         
