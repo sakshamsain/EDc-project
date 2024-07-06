@@ -1,0 +1,126 @@
+:root {
+    --bg-color-light: #f9f9f9;
+    --text-color-light: #000;
+    --input-bg-light: #fff;
+    --input-border-light: #007bff;
+    --button-bg-light: #6200ea;
+    --button-text-light: #fff;
+
+    --bg-color-dark: #121212;
+    --text-color-dark: #ffffff;
+    --input-bg-dark: #1e1e1e;
+    --input-border-dark: #6200ea;
+    --button-bg-dark: #6200ea;
+    --button-text-dark: #ffffff;
+}
+
+body.light-mode {
+    --bg-color: var(--bg-color-light);
+    --text-color: var(--text-color-light);
+    --input-bg: var(--input-bg-light);
+    --input-border: var(--input-border-light);
+    --button-bg: var(--button-bg-light);
+    --button-text: var(--button-text-light);
+}
+
+body.dark-mode {
+    --bg-color: var(--bg-color-dark);
+    --text-color: var(--text-color-dark);
+    --input-bg: var(--input-bg-dark);
+    --input-border: var(--input-border-dark);
+    --button-bg: var(--button-bg-dark);
+    --button-text: var(--button-text-dark);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mode-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    background-color: var(--input-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.contact-form h2 span {
+    color: var(--input-border);
+}
+
+.contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form .form-group input {
+    width: 48%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-border);
+    color: var(--text-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form .btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    max-width: 200px;
+    margin: 1rem auto 0;
+}
+
+.contact-form .btn:hover {
+    background-color: darken(var(--button-bg), 10%);
+    transform: scale(1.05);
+}
