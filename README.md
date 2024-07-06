@@ -45,8 +45,8 @@ live project: https://sakshamsain.github.io/EDc-project/
     <br/>
     ## JavaScript <br/>
    
-       1. querySelector('header') function in Making the navbar sticky on scroll.<br/>
-       2. Using classList target the specific class to handling menu icon and navbar state changes on                scroll.<br/>
+       1. querySelector('header') function in Making the navbar sticky on scroll. <br/>
+       2. Using classList target the specific class to handling menu icon and navbar state changes on                scroll. <br/>
        3.By using swiper space between slides of testimonial also make it autoplay in interval of 5sec. <br/>
       4. Using ScrollReveal for animating elements based on their position relative to the viewport.
  
