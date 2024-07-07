@@ -44,8 +44,7 @@ live project: https://sakshamsain.github.io/EDc-project/
     CSS : The styles ensure the footer is visually appealing and responsive (flex-wrap: wrap; allows items           to wrap to a new line on smaller screens).<br/>
     <br/>
    ## JavaScript 
-   
-       1. querySelector('header') function in Making the navbar sticky on scroll.
+        1. querySelector('header') function in Making the navbar sticky on scroll.
     <br/>
        2. Using classList target the specific class to handling menu icon and navbar state changes on                scroll.
     <br/>
