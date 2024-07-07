@@ -51,7 +51,8 @@ live project: https://sakshamsain.github.io/EDc-project/
        3. By using swiper space between slides of testimonial also make it autoplay in interval of 5sec.             <br/>
       4. Using ScrollReveal for animating elements based on their position relative to the viewport.
  ## Contact form firebase link
-    The contact form contains different class where the user details will be filled like name,                 emailaddress,mobile number, email subject and the message content. The all information is stored in my     firebase local database when message is sent console gives the alert. Firebase use api key and id to       store information in target project data.
+ <br/>
+    The contact form contains different class where the user details will be filled like name, <br/>                emailaddress,mobile number, email subject and the message content. The all information is stored in my     firebase local database when message is sent console gives the alert. Firebase use api key and id to <br/>      store information in target project data.
    
  
         
